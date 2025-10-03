@@ -11,8 +11,8 @@ public class perimetroDeUnRectangulo {
         int x2 = src.nextInt();
         int y2 = src.nextInt();
 
-        int base = Math.abs(x1 - x2);
-        int altura = Math.abs(y1 - y2);
+        int base = (x1 - x2);
+        int altura = (y1 - y2);
 
         int perimetro = 2 * (base + altura);
 
