@@ -7,6 +7,5 @@ public class Palindromo {
 
         System.out.println(palabra.charAt(3) + "" + palabra.charAt(2) + "" + palabra.charAt(1) + "" + palabra.charAt(0));
 
-
     }
 }
