@@ -14,9 +14,10 @@ public class OrdenCola {
         for (int i = 0; i < len; i++) {
             int personasAdelantadas = 0;
 
-            for (int j = i + 1; j < len; j++) {
+            for (int j = i + 1; j < a.length; j++) {
                 if (a[j] < a[i]) {
                     personasAdelantadas++;
+
                 }
             }
 
