@@ -1,0 +1,13 @@
+package hackerrank;
+
+import java.util.Scanner;
+
+public class HelloYou {
+    public static void main(String[] args) {
+
+        Scanner myObj = new Scanner(System.in);
+
+        String nombre = myObj.nextLine();
+        System.out.println("Hola " + nombre + "!");
+    }
+}
