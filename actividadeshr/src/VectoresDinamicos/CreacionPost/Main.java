@@ -10,29 +10,29 @@ public class Main {
         Scanner print = new Scanner(System.in);
         HashMap<String, String> post = new HashMap<>();
 
-        System.out.println("================================");
-        System.out.println("JSON a HashMap");
-        System.out.println("================================");
-
-        System.out.println("\n\n================================");
-        System.out.println("Datos del servidor");
-        System.out.println("================================");
+        System.out.println("========================");
+        System.out.println("POSTS");
+        System.out.println("========================");
+        System.out.println();
+        System.out.println("========================");
         System.out.println("IP del servidor:");
         String ip = print.nextLine();
         System.out.println("Puerto del servidor:");
         String puerto = print.nextLine();
-        System.out.println("================================");
+        System.out.println("========================");
 
-        System.out.println("\n\n\n================================");
-        System.out.println("Datos a enviar");
-        System.out.println("================================");
-        System.out.println("Nombre del post:");
+
+        System.out.println();
+        System.out.println("========================");
+        System.out.println("Enviar un Post");
+        System.out.println("========================");
+        System.out.println("Nombre:");
         post.put("nombrePost", print.nextLine());
-        System.out.println("Autor del post:");
+        System.out.println("Autor:");
         post.put("autor", print.nextLine());
-        System.out.println("Foto para el post:");
+        System.out.println("Foto:");
         post.put("foto", print.nextLine());
-        System.out.println("================================");
+        System.out.println("========================");
 
         String post1 = String.valueOf(new Post(post.get("nombrePost"), post.get("autor"), post.get("foto")));
 
